@@ -1,3 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
+  <entry>
+    <title><![CDATA[博客搭建]]></title>
+    <url>%2F2017%2F09%2F04%2F%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%2F</url>
+    <content type="text"><![CDATA[在Windows8.1中搭建Hexo+Github博客的简要内容，详细信息请参考资料 安装Git与Node.js +Git+Node.js本人将Node.js装在C盘下 Hexo 进入Git Bash界面 因网络原因，只得使用淘宝NPM镜像1npm install -g cnpm --registry=https://registry.npm.taobao.org 注意，此后改为用cnpm命令安装 安装Hexo1cnpm install -g hexo-cli 部署Hexo到博客文件夹1hexo init 安装生成器1cnpm install 配置_config.yml1234deploy: type: git repo: git@github.com:githubName/githubName.github.io branch: master SSH 生成SSH并在github中配置SSH1ssh-keygen -t rsa -C &quot;your e-mail&quot; 测试SSH配置情况1ssh -T git@github.com 安装Git包1cnpm install hexo-deployer-git --save 博客发布 git身份信息12git config --global user.name &quot;用户名&quot;git config --global user.email &quot;邮箱&quot; 发布博客123hexo ghexo d 博客搭建资料 基本流程&nbsp;&nbsp;Hexo+Github: 搭建属于自己的静态博客&nbsp;&nbsp;基于Hexo+GitHub Pages 搭建博客详细教程&nbsp;&nbsp;HEXO搭建个人博客&nbsp;&nbsp;hexo你的博客&nbsp;&nbsp;md文件的编写语法 使用cnpm&nbsp;&nbsp;零基础免费搭建个人博客-hexo+github 所遇错误及解决方法&nbsp;&nbsp;Hexo搭建Github-Pages博客填坑教程&nbsp;&nbsp;hexo之踩坑填坑 主题设置&nbsp;&nbsp;nexT官方文档&nbsp;&nbsp;hexo的next主题个性化教程 更多主题&nbsp;&nbsp;hexo主题&nbsp;&nbsp;zenhabitsbook&nbsp;&nbsp;hsfzxjy&nbsp;&nbsp;王垠的博客]]></content>
+      <tags>
+        <tag>搭建</tag>
+      </tags>
+  </entry>
 </search>
