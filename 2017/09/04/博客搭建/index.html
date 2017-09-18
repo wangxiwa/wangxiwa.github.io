@@ -101,20 +101,20 @@
 
 
 
-<meta name="description" content="在Windows8.1中搭建Hexo+GitHub博客的简要内容">
+<meta name="description" content="搭建Hexo+GitHub博客的简要内容">
 <meta name="keywords" content="博客">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo+GitHub搭建博客">
 <meta property="og:url" content="https://github.com/wangxiwa/wangxiwa.github.io/2017/09/04/博客搭建/index.html">
 <meta property="og:site_name" content="弦落月殇">
-<meta property="og:description" content="在Windows8.1中搭建Hexo+GitHub博客的简要内容">
+<meta property="og:description" content="搭建Hexo+GitHub博客的简要内容">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="https://github.com/img/blog/sign_up.png">
 <meta property="og:image" content="https://github.com/img/blog/SSH.png">
-<meta property="og:updated_time" content="2017-09-18T03:58:37.964Z">
+<meta property="og:updated_time" content="2017-09-18T09:08:46.881Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo+GitHub搭建博客">
-<meta name="twitter:description" content="在Windows8.1中搭建Hexo+GitHub博客的简要内容">
+<meta name="twitter:description" content="搭建Hexo+GitHub博客的简要内容">
 <meta name="twitter:image" content="https://github.com/img/blog/sign_up.png">
 
 
@@ -376,9 +376,10 @@
       
 
       
-        <p>在Windows8.1中搭建Hexo+GitHub博客的简要内容<br><a id="more"></a></p>
+        <p>搭建Hexo+GitHub博客的简要内容<br><a id="more"></a></p>
 <hr>
-<h4 id="安装Git与Node-js"><a href="#安装Git与Node-js" class="headerlink" title="安装Git与Node.js"></a>安装Git与Node.js</h4><p>+<a href="https://git-scm.com/downloads" target="_blank" rel="external">Git</a><br>+<a href="https://nodejs.org/en/" target="_blank" rel="external">Node.js</a><br><em>建议将Node.js装在C盘下</em><br><br><br></p>
+<h4 id="安装Git与Node-js"><a href="#安装Git与Node-js" class="headerlink" title="安装Git与Node.js"></a>安装Git与Node.js</h4><p>+<a href="https://git-scm.com/downloads" target="_blank" rel="external">Git</a><br>+<a href="https://nodejs.org/en/" target="_blank" rel="external">Node.js</a><br><em>建议将Node.js装在C盘下</em></p>
+<p><br><br></p>
 <h4 id="Hexo设置"><a href="#Hexo设置" class="headerlink" title="Hexo设置"></a>Hexo设置</h4><p>在任意一个存放Hexo的文件夹</p>
 <p>shift+鼠标右键进入<font color="red">Git Bash</font>界面</p>
 <p>安装Hexo<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install -g hexo-cli</div></pre></td></tr></table></figure></p>
@@ -391,7 +392,7 @@
 <p>本地运行博客<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo s</div></pre></td></tr></table></figure></p>
 <h4 id="GitHub注册、创建仓库"><a href="#GitHub注册、创建仓库" class="headerlink" title="GitHub注册、创建仓库"></a>GitHub注册、创建仓库</h4><p><a href="http://wiki.jikexueyuan.com/project/github-basics/sign-up.html" target="_blank" rel="external">极客学院：GitHub注册</a></p>
 <p>创建仓库(Repository)<br><img src="/img/blog/sign_up.png"><br>每个GitHub帐号只能有一个仓库来存放个人主页</p>
-<p><font color="red">仓库的名字必须是username/username.github.io</font>，以此来访问你的个人主页</p>
+<p><font color="red">仓库的名字必须是username/username.github.io</font>，username为自己github的用户名</p>
 <p><br><br></p>
 <h4 id="SSH配置"><a href="#SSH配置" class="headerlink" title="SSH配置"></a>SSH配置</h4><p>git身份信息<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">git config --global user.name &quot;用户名&quot;</div><div class="line">git config --global user.email &quot;邮箱&quot;</div></pre></td></tr></table></figure></p>
 <p>生成SSH<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ssh-keygen -t rsa -C &quot;your e-mail&quot;</div></pre></td></tr></table></figure></p>
